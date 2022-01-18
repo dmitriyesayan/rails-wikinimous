@@ -1,0 +1,10 @@
+<div class="main-box">
+  <ul>
+    <% @articles.each do |article|  %>
+    <div class="article-margin">
+      <li><%= link_to article.title, article_path(article) %></li>
+      <p><%= article.content %></p>
+    </div>
+    <% end %>
+  </ul>
+</div>

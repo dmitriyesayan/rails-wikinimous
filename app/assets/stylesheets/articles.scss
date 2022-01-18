@@ -1,0 +1,76 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  margin: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+  height: 32px;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 0.05px;
+  border-bottom-color: rgb(206, 206, 206);
+}
+
+.flex a{
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+.flex a:hover{
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  text-shadow: 0.2px 0.2px black;
+}
+
+.main-box {
+  padding-top: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+.main-box ul {
+  list-style-type: none;
+}
+
+.main-box a {
+  text-decoration: none;
+  color: rgb(35, 96, 167)
+}
+
+.main-box a:hover {
+  text-decoration: underline;
+  color: rgb(23, 63, 109);
+}
+
+.main-box p {
+  font-size: 12px;
+  color: grey
+}
+
+.article-margin {
+  margin-bottom: 24px;
+}
+
+.bottom-line {
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-width: 0.05px;
+  border-bottom-color: rgb(206, 206, 206);
+  align-items: center;
+  justify-content: flex-start;
+}
+.bottom-line h1 {
+  font-weight: lighter;
+  font-size: 24px;
+  padding-right: 10px;
+}
